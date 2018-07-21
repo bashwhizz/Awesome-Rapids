@@ -221,3 +221,34 @@ Want to own your data and install diaspora*? Whether you just want to try it out
 				Codethe BCHAIN MOFOS!!
 				
 CodeChain is a programmable open source blockchain technology optimal for developing and customizing multi-asset management systems.
+
+
+#	Jenkins Configuration as Code Plugin
+	Cuz i love me some jenkins, how bout u ?
+	
+Setting up Jenkins is a complex process, as both Jenkins and its plugins require some tuning and configuration, with dozens of parameters to set within the web UI manage section.
+
+Experienced Jenkins users rely on groovy init scripts to customize jenkins and enforce desired state. Those scripts directly invoke Jenkins API and as such can do everything (at your own risk). But they also require you know Jenkins internals, and are confident in writing groovy scripts on top of Jenkins API.
+
+Configuration-as-Code plugin has been designed as an opinionated way to configure jenkins based on human-readable declarative configuration files. Writing such a file should be feasible without being a Jenkins expert, just translating into code a configuration process one is used to executing in the web UI.
+
+#	IPFS : "listen, here's the thing, is we be bound to each other anyway, we'd be better off without these fuckers trying to censors/segregate/divide or take ownership over what's essentially, yours."
+
+	IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built in. You can also mount the world at /ipfs.
+
+For more info see: https://github.com/ipfs/ipfs.
+
+Please put all issues regarding IPFS design in the ipfs repo issues. Please put all issues regarding the Go IPFS implementation in this repo.
+
+#	KRATOS: "Cuz the dreams' have just begun"
+	or if u'd indulge me "They say im a dreamer...
+							but i aint the only crazy, junkie, high, out off his rocker's single'd out ONE'(hopefully)
+	KRATOS Multiphysics ("Kratos") is a framework for building parallel, multi-disciplinary simulation software, aiming at modularity, extensibility, and high performance. Kratos is written in C++, and counts with an extensive Python interface. More in Overview
+
+Kratos is free under BSD-4 license and can be used even in comercial softwares as it is. Many of its main applications are also free and BSD-4 licensed but each derived application can have its own propietary license.
+
+#	TensorFlow: 'When u come right down to it, dis dat bullshit... but dis bullshit be running the show ever since,
+			well... every since there been' a show to run.. huummmmmmphm ' 
+		    'MATH is my breakfast'
+		    
+		    
