@@ -1,0 +1,223 @@
+# Crystal-Lang
+Crystal is a programming language with the following goals:
+
+Have a syntax similar to Ruby (but compatibility with it is not a goal)
+Statically type-checked but without having to specify the type of variables or method arguments.
+Be able to call C code by writing bindings to it in Crystal.
+Have compile-time evaluation and generation of code, to avoid boilerplate code.
+Compile to efficient native code.
+
+# PublicLab.or 
+PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈 https://publiclab.org
+The content management system for the Public Lab research community, the plots2 web application is a combination of a group research blog of what we call "research notes" and a wiki. Read more about the data model here.
+
+It features a Bootstrap-based UI and a variety of community and attribution features that help the Public Lab community collaborate on environmental technology design and documentation, as well as community organizing. Originally a Drupal site, it was rewritten in 2012 in Ruby on Rails and has since extended but not entirely replaced the legacy Drupal data model and database design.
+
+# Sat
+Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package repository here: https://repo.saltstack.com/
+
+# MicroPython
+MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems https://micropython.org
+
+# OPNsens Plugins 
+https://github.com/opnsense/plugins
+The plugins collection offers users and developers a way to quickly build additions for OPNsense that can be optionally installed. As soon as they are upstreamed they will become available to everyone through the firmware GUI pages.
+
+Plugins can do the following:
+
+Modify the menu, access control lists and look and feel (themes)
+Add additional server software and their respective GUI pages
+Create new authentication methods to be used within other subsystems
+Provide other types of devices and interfaces to the firewall
+Pull in additional packages that will update automatically
+Enhance the backend services with additional work tasks
+Allow custom start, stop and early scripts
+Persistent /boot/loader.conf modifications
+Additional themes for the web GUI
+
+#	SeleniumHQ 
+https://github.com/SeleniumHQ/selenium
+Selenium is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation. Selenium specifically provides infrastructure for the W3C WebDriver specification — a platform and language-neutral coding interface compatible with all major web browsers.
+
+The project is made possible by volunteer contributors who've generously donated thousands of hours in code development and upkeep.
+
+Selenium's source code is made available under the Apache 2.0 license.
+
+# NUXT (Vue.js Dev framework)
+https://nuxtjs.org
+
+Automatic transpilation and bundling (with webpack and babel)
+Hot code reloading
+Server-side rendering OR Single Page App OR Static Generated, you choose 🔥
+Static file serving. ./static/ is mapped to /
+Configurable with a nuxt.config.js file
+Custom layouts with the layouts/ directory
+Middleware
+Code splitting for every pages/
+Learn more at nuxtjs.org.
+
+# Outline-server
+Outline Manager, developed by Jigsaw. The Outline Manager application creates and manages Outline servers, powered by Shadowsocks. It uses the Electron framework to offer support for Windows, macOS and Linux. https://getoutline.org/
+This repository has all the code needed to create and manage Outline servers on DigitalOcean. An Outline server runs instances of Shadowsocks proxies and provides an API used by the Outline Manager application.
+
+Go to https://getoutline.org for ready-to-use versions of the software.
+
+In order to build and run the code, you need the following installed:
+
+Node
+Yarn
+Wine, if you would like to generate binaries for Windows
+
+#	BareOS
+
+Bareos (Backup Archiving Recovery Open Sourced) is a reliable, cross-network open source software for backup, archiving and recovery of data for all well-established operating systems. Features of Bareos include amongst others:
+
+True open source software; no open-core or other restrictions; License AGPLv3
+network based
+backends include Ceph, Gluster, S3
+multiple clients and storages possible; Active / passive clients possible
+Backup Clients ('Bareos-FD') available on Linux, Windows, MacOS, Solaris, HP-UX, AIX, BSD
+Python plugin interface
+SAN-Backups using NDMP (with DAR/DDAR); NDMP tape support
+Always Incremental Backup scheme
+VMWare Plugin
+Encryption
+Scriptable CLI
+web based graphical interface (webui)
+Role-based ACL support for commands and objects
+The source code of Bareos is available on https://github.com/bareos/ under the AGPL v3 license. Additionally Bareos offers binary package repositories for the major Linux distributions as well as for MacOS and Windows.
+
+#	Teleport https://gravitational.com/teleport
+Gravitational Teleport is a modern SSH server for remotely accessing clusters of Linux servers via SSH or HTTPS. It is intended to be used instead of sshd for organizations who need:
+
+SSH audit with session recording/replay.
+Easily manage SSH trust between teams, organizations and data centers.
+SSH into behind-firewall clusters without any open ports.
+Role-based access control (RBAC) for SSH protocol.
+In addition to its hallmark features, Teleport is interesting for smaller teams because it facilitates easy adoption of the best SSH practices like:
+
+No need to distribute keys: Teleport uses certificate-based access with automatic certificate expiration time.
+2nd factor authentication (2FA) for SSH.
+Collaboratively troubleshoot issues through session sharing.
+Single sign-on (SSO) for SSH and your organization identities via OpenID Connect or SAML with endpoints like Okta or Active Directory.
+Cluster introspection: every SSH node and its status can be queried via CLI and Web UI.
+Teleport is built on top of the high-quality Golang SSH implementation and it is fully compatible with OpenSSH and can be used with sshd servers and ssh clients.
+
+#	OWRT Packages Feed
+
+This is the OpenWrt "packages"-feed containing community-maintained build scripts, options and patches for applications, modules and libraries used within OpenWrt.
+
+Installation of pre-built packages is handled directly by the opkg utility within your running OpenWrt system or by using the OpenWrt SDK on a build system.
+
+#	Cheat.SH
+
+
+the only cheat sheet you need https://cheat.sh/
+
+Unified access to the best community driven cheat sheets repositories of the world.
+
+Let's imagine for a moment that there is such a thing as an ideal cheat sheet. What should it look like? What features should it have?
+
+Concise — It should only contain the things you need, and nothing else.
+Fast — It should be possible to use it instantly.
+Comprehensive — It should contain answers for every possible question.
+Universal — It should be available everywhere, anytime, without any preparations.
+Unobtrusive — It should not distract you from your main task.
+Tutoring — It should help you to learn the subject.
+Inconspicuous — It should be possible to use it completely unnoticed.
+Such a thing exists.
+
+# PipENV ( CUZ, what more could u want? ) 
+Python Development Workflow for Humans. https://docs.pipenv.org/
+
+Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world. Windows is a first--class citizen, in our world.
+
+It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your Pipfile as you install/uninstall packages. It also generates the ever--important Pipfile.lock, which is used to produce deterministic builds.
+
+#	Gluon-nlp 
+Natural language processesing made eazzyzy
+NLP made easy http://gluon-nlp.mxnet.io
+GluonNLP is a toolkit that enables easy text preprocessing, datasets loading and neural models building to help you speed up your Natural Language Processing (NLP) research.
+
+Quick Start Guide
+Resources
+
+#	Ansible AUTOWHAT?!
+Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications — automate in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com/ansible/ https://www.ansible.com/
+
+Ansible is a radically simple IT automation system. It handles configuration-management, application deployment, cloud provisioning, ad-hoc task-execution, and multinode orchestration -- including trivializing things like zero-downtime rolling updates with load balancers.
+Read the documentation and more at https://ansible.com/
+You can find installation instructions here for a variety of platforms.
+Most users should probably install a released version of Ansible from pip, a package manager or our release repository. Officially supported builds of Ansible are also available. Some power users run directly from the development branch - while significant efforts are made to ensure that devel is reasonably stable, you're more likely to encounter breaking changes when running Ansible this way.
+
+#	Crouton: (those little salad thingy's? ; NOT ) 
+	CHROMIUM OS UNIVERSAL CHROOT ENV
+
+crouton is a set of scripts that bundle up into an easy-to-use, 
+Chromium OS-centric chroot generator. 
+Currently Ubuntu and Debian are supported (using debootstrap behind the scenes), but "Chromium OS Debian, Ubuntu, and Probably Other Distros Eventually Chroot Environment" doesn't acronymize as well (crodupodece is admittedly pretty fun to say, though).
+'
+It stands for ChRomium Os Universal chrooT envirONment ...or something like that. Do capitals really matter if caps-lock has been (mostly) banished, and the keycaps are all lower-case?
+
+Moving on...'
+
+#	AFRAME.io web framework for building virtual reality experiences. https://aframe.io/
+👓 Virtual Reality Made Simple: A-Frame handles the 3D and WebVR boilerplate required to get running across platforms including mobile, desktop, Vive, and Rift just by dropping in <a-scene>.
+
+❤️ Declarative HTML: HTML is easy to read and copy-and-paste. Since A-Frame can be used from HTML, A-Frame is accessible to everyone: web developers, VR enthusiasts, educators, artists, makers, kids.
+
+🔌 Entity-Component Architecture: A-Frame is a powerful framework on top of three.js, providing a declarative, composable, reusable entity-component structure for three.js. While A-Frame can be used from HTML, developers have unlimited access to JavaScript, DOM APIs, three.js, WebVR, and WebGL.
+
+⚡️ Performance: A-Frame is a thin framework on top of three.js. Although A-Frame uses the DOM, A-Frame does not touch the browser layout engine. Performance is a top priority, being battle-tested on highly interactive WebVR experiences.
+
+🌐 Cross-Platform: Build VR applications for Vive, Rift, Daydream, GearVR, and Cardboard. Don't have a headset or controllers? No problem! A-Frame still works on standard desktop and smartphones.
+
+🔍 Visual Inspector: A-Frame provides a built-in visual 3D inspector with a workflow similar to a browser's developer tools and interface similar to Unity. Open up any A-Frame scene and hit <ctrl> + <alt> + i.
+
+🏃 Features: Hit the ground running with A-Frame's built-in components such as geometries, materials, lights, animations, models, raycasters, shadows, positional audio, tracked controllers. Get even further with community components such as particle systems, physics, multiuser, oceans, mountains, speech recognition, or teleportation!
+
+Build VR scenes in the browser with just a few lines of HTML! To start playing and publishing now, remix the starter example on Glitch:
+
+#	OPNSense | Core 
+OPNsense GUI, API and systems backend https://opnsense.org/
+
+
+The OPNsense project invites developers to start contributing to the code base. For your own purpose or even better to join us in creating the best open source firewall available.
+
+The build process has been designed to make it easy for anyone to build and write code. The main outline of the new codebase is available at:
+
+https://docs.opnsense.org/development/architecture.html
+
+Our aim is to gradually evolve to a new codebase instead of using a big bang approach into something new.
+
+
+#	PeerTube ( Cuz, ENOUGH with the ' Alphabet Monopoly, Domination, Oglyopoly, xenophobic, Net-NonNeutrality and Fucking Geolocators!!!!)
+Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent and Angular.
+
+
+Federated (ActivityPub) video streaming platform using P2P (BitTorrent) directly in the web browser with WebTorrent.
+
+We have run a crowdfunding campaign to pave the road to version 1.0 of PeerTube. Thanks to everyone who pitched in and shared the news around. You can now check out the corresponding milestone and help its development!
+
+Client 
+
+#	Diaspora.	A privacy-aware, distributed, open source social network
+			'Cuz there aint no 'in real life' simply AFK.'
+			
+You don't have to install diaspora* to use the network. There are many servers connected to diaspora*s network which are open to anyone, and you can create an account on one of these servers. Have a look at our tips for finding a home, or you can just go straight to the list of open servers to sign up.
+
+#	Zephyr Project 
+		'For all y'all nerds with ur gadgetries' (whomever y'all be )
+		The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind.
+
+The Zephyr OS is based on a small-footprint kernel designed for use on resource-constrained systems: from simple embedded environmental sensors and LED wearables to sophisticated smart watches and IoT wireless gateways.
+
+The Zephyr kernel supports multiple architectures, including ARM Cortex-M, Intel x86, ARC, NIOS II, Tensilica Xtensa, and RISC V, and a large number of supported boards.
+
+Want to own your data and install diaspora*? Whether you just want to try it out, want to install it on your server or want to contribute and need a development setup, our installation guides will get you started!
+
+
+#	CodeChain Programmable multi-asset chain https://codechain.io/
+				Codethe BCHAIN MOFOS!!
+				
+CodeChain is a programmable open source blockchain technology optimal for developing and customizing multi-asset management systems.
